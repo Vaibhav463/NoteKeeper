@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    background-color: #607d8b;
+}
+#navbar ul{
+    display: flex;
+}
+#Logo{
+    margin: 16px;
+    font-size: 2rem;
+}
+#searchTxt{
+    position: absolute;
+    right: 44px;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid #777;
+    border-radius: 7px;
+    width: 262px;
+}
+#button-holder img{
+    margin: 4px;
+    position: absolute;
+    right: 69px;
+    width: 20px;
+}
+#button-holder img:hover{
+    cursor: pointer;
+
+}
+/* #button{
+    position: absolute;
+    right: 50px;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 7px;
+    border: 1px solid #777;
+    border-radius: 6px;
+} */
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    font-size: 25px;
+    display: block;
+    margin-left: 45px;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#navbar ul li a:hover{
+    color: white;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-height: calc(100vh - 333.6px - 36.4px);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cont h2{
+    padding-top: 21px;
+    font-size: 38px;
+
+}
+header h1 {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    line-height: 2;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+form > * {
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 7px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+
+form textarea {
+    padding: 7px 0 40px 5px;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+form button {
+    background: cadetblue;
+    color: ghostwhite;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+form button:hover {
+    background-color: rgb(58, 95, 97)
+}
+
+.noteCard {
+    margin: 11px;
+    padding: 1rem;
+    border: 1px solid #777;
+    background-color: #f6ebd8;
+    border-radius: 3px;
+}
+
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.note-title {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+#notes{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.btn-primary{
+    background: cadetblue;
+    color: ghostwhite;
+    padding: 3px;
+    font-size: rem;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: rgb(58, 95, 97);
+}
+
+.edit-btn {
+    background-color: var(--color-primary);
+}
+footer{
+    position: relative;
+    background: #607d8b;
+    margin-top: auto;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}

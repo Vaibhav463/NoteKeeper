@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Note Keeper</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <a id="Logo">Note Keeper</a>
+        <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+                <div id='button-holder'>
+                    <img src='si.png' />
+                </div>
+                <!-- <button id="button"  type="submit">Search</button> -->
+            </form>
+        </ul>
+    </div>
+    <header>
+        <div class="container">
+            <h1>Welcome to Note Keeper</h1>
+            <form action="">
+                <input type="text" id="addTitle" placeholder="Note title">
+                <textarea id="addTxt" placeholder="Note Details"></textarea>
+            
+                <button id="addBtn">Add Note</button>
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="cont">
+            <h2>Your Notes</h2>
+           
+            <hr>
+            
+            <div id="notes" class="row container-fluid"></div>
+            <!-- <div id="notes" class="note">
+                    <div class="notes">
+                        <p class="note-counter">Note ${index + 1}</p>
+                        <h3 class="note-title"> $element.title </h3>
+                        <p class="note-text"> $element.text</p>
+                        <button class="note-btn">Delete Note</button>
+                        <button class="note-btn edit-btn">Delete Note</button>
+                    </div> -->
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.NoteKeeper.com. All rights reserved!
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
